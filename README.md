@@ -13,7 +13,9 @@ Features:
 - React SWR data fetching
 - Zustand state management
 <br>
+
 To run the project - ````npm run dev````
+
 <br>
 
 # Web Pages
