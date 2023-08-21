@@ -1,7 +1,6 @@
 import React from 'react';
 import { NextPageContext } from 'next';
 import { getSession } from 'next-auth/react';
-import Head from 'next/head';
 
 import Navbar from '@/components/Navbar';
 import Billboard from '@/components/Billboard';
@@ -35,10 +34,6 @@ const Home = () => {
 
   return (
     <>
-      <head>
-        <title>Netflix</title>
-        <meta name="google-site-verification" content="SGBiyPh3FHueDts8YTHlX7dV_P0cw4c-a83rTufAOvU" />
-      </head>
       <InfoModal visible={isOpen} onClose={closeModal} />
       <Navbar />
       <Billboard />
